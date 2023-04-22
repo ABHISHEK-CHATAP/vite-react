@@ -153,14 +153,14 @@ h6 {
     margin-top: 1rem;
     width: 9.5rem;
     height: 3.5rem;
-    color: #fff;
+    color: #ffffff;
     background-color: var(--primary-color);
     text-transform: capitalize;
     font-size: 1.6rem;
 }
 .container .btn:hover{
     background-color: #ffffff;
-    color: #333333;
+    color: #080404;
     border: 1px solid var(--primary-color);
 }
 .container .img-fluid{
@@ -168,9 +168,7 @@ h6 {
     margin-left: 0rem;
     height: 30rem;
 }
-.btn-contact:hover{
-    color: #333333;
-}
+
  /*--------------------------------  Navbar ends 
  --------------------------------------------------------*/
 
@@ -198,7 +196,7 @@ h6 {
     height: 3rem;
     border-radius: 0.5rem;
     font-size: 1.3rem;
-    padding-left: 1rem;
+   
     font-weight: lighter;
 }
 
@@ -230,7 +228,30 @@ h6 {
      color: #fff;
    }
    
-
+#error-img{
+    width: 60%;
+    margin-left: 12rem;
+}
+#butto{
+    width: 100%;
+    margin-top: 1rem;
+   border-radius: 5px;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    color: #10a7ff;
+}
+#butto:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid var(--primary-color);
+    text-emphasis-color: #000000;
+    
+}
+.error{
+    color: #10a7ff;
+}
   /*--------------------------------  Navbar ends 
  --------------------------------------------------------*/
 

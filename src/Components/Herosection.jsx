@@ -17,8 +17,8 @@ const Herosection = (props) => {
             <h1 className='unicorn'>{props.name}</h1>
            
             <h6 className='Abhishek'>I'M {fname}, Age is {age}. A frontend Developer, Working on framework of React.Js<br/> and having Knowledge about Backend and it's Working</h6>
-           <button className='btn' >
-            <NavLink to="/contact" className="btn-contact">HIRE ME</NavLink>
+           <button  className="btn" >
+            <NavLink to="/contact">HIRE ME</NavLink>
            </button>
            </div>
            <div className="col-lg-4">
